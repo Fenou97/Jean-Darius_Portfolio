@@ -2,10 +2,10 @@
 
 Project: Sales Performance
 
-Summary
+SUMMARY 
 This project aimed to evaluate and improve the sales performance of Coffee Shop by analyzing historical sales data. The primary objectives were to identify sales trends, assess the effectiveness of sales strategies, and uncover key factors influencing sales outcomes.
 
-Research Question
+RESEARCH QUESTIONS
 
 Which types of coffee have the highest sales volume?
 
@@ -13,10 +13,26 @@ Which types of coffee generate the highest profit margins?
 
 During which time periods does the company experience peak sales?
 
-Data Sources
+DATA SOURCES
 
 Data from various sources sales transactions were collected and cleaned for analysis. The original data contains variables such as date (3/1/2024), datetime (3/1/2024  10:15:51 AM), cash_type (card/cash), card (te number of the card used to purchase), money (how much the customer paaid when ordered a type coffee), coffee_name (the specific coffee the customer purchased).
 
-Data Preparation
-The rae data contains some inconsitencies that muust be handled to make it suitable for the analyis
+DATA PREPARATION
+
+The raw data contains has been imported to Microsot Power BI for analyis. It containd some inconsitencies that muust be handled to make it suitable for the analyis. 
+
+Data Cleaning
+
+Data profiling technique has been implemented to analyze the data to better understand its structure, quality, and content.
+
+Features engineering
+
+We created new feature called Time by spliting the original column datetime (3/1/2024  10:15:51 AM) into Column (Date) → 3/1/2024 and Column 2 (Time) → 10:15:51 AM.  The Column (Time) → 10:15:51 AM is also splitted into Column  (Time) → 10:15:51 and Column (Day Time) → AM/PM. This will enable us to identify the period that the company experience peak sales.
+
+Data cleaning
+
+
+
+
+
 
