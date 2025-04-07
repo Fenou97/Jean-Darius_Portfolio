@@ -20,15 +20,15 @@ Data from various sources sales transactions were collected and cleaned for anal
 
 DATA PREPARATION
 
-The raw data contains has been imported to Microsot Power BI for analyis. It contains some inconsitencies that muust be handled to make it suitable for the analyis. 
+The raw data has been imported to Microsot Power BI for analyis. It contains some inconsitencies that muust be handled to make it suitable for the analyis. 
 
 Features engineering
 
-We created new feature called Time by spliting the original column datetime (3/1/2024  10:15:51 AM) into Column (Date) → 3/1/2024 and Column 2 (Time) → 10:15:51 AM.  The Column (Time) → 10:15:51 AM is also splitted into Column  (Time) → 10:15:51 and Column (Time Period) → AM/PM. This will enable us to identify the period that the company experience peak sales.
+We created new feature called Time by spliting the original column datetime (3/1/2024  10:15:51 AM) into Column (Date) → 3/1/2024 and Column 2 (Time) → 10:15:51 AM.  The Column (Time) → 10:15:51 AM is also splitted into Column (Time) → 10:15:51 and Column (Time Period) → AM/PM. This will enable us to identify the period that the company experience peak sales.
 
 Data Cleaning (missing values, duplicate values)
 
-Data profiling technique has been implemented to analyze the data to better understand its structure, quality, and content. 9% of the variable card are empty. However, this variable will not conttribute to our analyis we can remove it from the data.
+Data profiling technique has been implemented to analyze the data to better understand its structure, quality, and content. 9% of the variable "card" are empty. However, this variable will not conttribute to our analyis, so we can remove it from the data.
 
 Data conversion
 
